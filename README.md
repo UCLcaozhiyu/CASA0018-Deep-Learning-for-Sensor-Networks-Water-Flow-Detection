@@ -82,7 +82,7 @@ Finally, deployment testing showed that the model maintained its recognition per
 
 For detailed training performance and feature space analysis, please refer to the weekly journal.
 
-4. Testing and Validation: Use the methods in `testing environment` to validate the system.
+4. Testing and Validation: Use the methods in `testing environment` to validate the system. See test videos for specific runs and test results.
 
 ## Notes
 - Ensure the hardware devices are deployed in the correct order.
