@@ -58,7 +58,7 @@ Photos of the data collection environment are provided to document the real-worl
 - Employed data augmentation techniques, like time shift and noise injection, to enhance model robustness.
 
 ### Hardware Design and Testing
-- Designed waterproofing solutions and conducted hardware testing, particularly with the newly acquired Arduino Nano 33 BLE.
+- Designed waterproofing solutions and conducted hardware testing, particularly with the newly acquired Arduino Nano 33 BLE REV2.
 
 ### Challenges and Improvements
 - Identified challenges with datasets and models, proposing improvements such as adding complex environmental sounds and adjusting frequency ranges.
