@@ -31,10 +31,11 @@ The project includes a comprehensive hardware device module, featuring:
 
 ## Model Development
 The project contains multiple model versions, from 1.0.5 to 1.0.10, showcasing the iterative process of model development. Key aspects include:
-- Basic model versions
-- Transfer learning versions
-- Inference testing versions
-- Stability testing tools
+- Inference testing versions(ei-test2-arduino-1.0.5)
+- Basic model versions(ei-test2-arduino-1.0.8.zip)
+- Buzzer function integration version(test2_inferencing1.0.7)
+- Transfer learning versions(ei-test2-arduinotransferlearning-1.0.9 & ei-test2-arduino-1.0.10)
+- Stability testing tool
 
 ## Testing Environment
 The testing environment is thoroughly documented with photos, such as:
