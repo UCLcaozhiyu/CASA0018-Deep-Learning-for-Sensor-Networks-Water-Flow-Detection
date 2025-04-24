@@ -20,8 +20,10 @@ This project focuses on developing a deep learning-based sensor network for wate
 ## Hardware Device
 The project includes a comprehensive hardware device module, featuring:
 - Internal structure images (e.g., `internal structure.jpg`)
-- Buzzer component (`buzzer.jpg`)
-- Device shape images (`shape.jpg`)
+- Buzzer component:
+  ![Buzzer](./hardware%20device%20module/buzzer.jpg)
+- Device shape images:
+  ![Device Shape](./hardware%20device%20module/shape.jpg)
 
 ## Model Development
 The project contains multiple model versions, from 1.0.5 to 1.0.10, showcasing the iterative process of model development. Key aspects include:
@@ -31,10 +33,14 @@ The project contains multiple model versions, from 1.0.5 to 1.0.10, showcasing t
 - Stability testing tools
 
 ## Testing Environment
-The testing environment is thoroughly documented with photos, such as `0fdcd1ccbe7c9c6e381b952ae33d69e.jpg`, to validate the system's real-world performance.
+The testing environment is thoroughly documented with photos, such as:
+- ![Testing Environment 1](./testing%20environment/0fdcd1ccbe7c9c6e381b952ae33d69e.jpg)
+- ![Testing Environment 2](./testing%20environment/897501dc3ddedf2307a98f9983c106e.jpg)
 
 ## Data Collection
-Photos of the data collection environment are provided to document the real-world application scenarios.
+Photos of the data collection environment are provided to document the real-world application scenarios:
+- ![Data Collection 1](./Photos%20of%20the%20data%20collection%20environment/347b7e54f68472e07b62fc587339c71.jpg)
+- ![Data Collection 2](./Photos%20of%20the%20data%20collection%20environment/0e7302ddee56f76ec44543553047b41.jpg)
 
 ## Technical Details and Progress
 ### Data Collection and Processing
