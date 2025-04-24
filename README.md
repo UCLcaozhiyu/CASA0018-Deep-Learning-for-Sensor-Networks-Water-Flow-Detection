@@ -20,16 +20,14 @@ This project focuses on developing a deep learning-based sensor network for wate
 ## Hardware Device
 The project includes a comprehensive hardware device module, featuring:
 <<<<<<< HEAD
-- Internal structure images (e.g., `internal structure.jpg`)
 - Buzzer component:
   ![Buzzer](./hardware%20device%20module/buzzer.jpg)
 - Device shape images:
   ![Device Shape](./hardware%20device%20module/shape.jpg)
 =======
-- Internal structure images
-- Buzzer component ![Buzzer](./hardware%20device%20module/internal%20structure.jpg)
+- Internal structure images ![Buzzer](./hardware%20device%20module/internal%20structure.jpg)
 - Device shape images ![Buzzer](./hardware%20device%20module/shape.jpg)
->>>>>>> 73ce40d5159cb818288c4fe04ee2203fbc7d891f
+>>>>>>> 
 
 ## Model Development
 The project contains multiple model versions, from 1.0.5 to 1.0.10, showcasing the iterative process of model development. Key aspects include:
@@ -40,13 +38,15 @@ The project contains multiple model versions, from 1.0.5 to 1.0.10, showcasing t
 
 ## Testing Environment
 The testing environment is thoroughly documented with photos, such as:
-- ![Testing Environment 1](./testing%20environment/0fdcd1ccbe7c9c6e381b952ae33d69e.jpg)
-- ![Testing Environment 2](./testing%20environment/897501dc3ddedf2307a98f9983c106e.jpg)
+- ![Testing Environment 1](./testing%20environment/0d9d5355084310baacfbe7fa18d0e9c.jpg)
+- ![Testing Environment 2](./testing%20environment/c4585cea0cefe34963b1590a96a28a2.jpg)
 
 ## Data Collection
 Photos of the data collection environment are provided to document the real-world application scenarios:
-- ![Data Collection 1](./Photos%20of%20the%20data%20collection%20environment/347b7e54f68472e07b62fc587339c71.jpg)
-- ![Data Collection 2](./Photos%20of%20the%20data%20collection%20environment/0e7302ddee56f76ec44543553047b41.jpg)
+- ![Data Collection 1](./Photos%20of%20the%20data%20collection%20environment/ff2ff22afc49314b5a34ac375163de1.jpg)
+- ![Data Collection 2](./Photos%20of%20the%20data%20collection%20environment/f939eb40fd6af8ab1cf4466c31eae90.jpg)
+- ![Data Collection 2](./Photos%20of%20the%20data%20collection%20environment/df7fab5387dbd82f2cec2ae5920748b.jpg)
+
 
 ## Technical Details and Progress
 ### Data Collection and Processing
