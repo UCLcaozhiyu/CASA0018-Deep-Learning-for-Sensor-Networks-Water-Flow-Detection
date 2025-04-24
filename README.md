@@ -81,6 +81,7 @@ Moreover, the model was trained using optimized MFE parameters, including a wide
 Finally, deployment testing showed that the model maintained its recognition performance even after waterproof encapsulation, making it compatible with the actual use-case setup. Therefore, considering accuracy, robustness, inference performance, and deployability, ei-test2-arduino-1.0.8 is the most suitable model for this project.
 
 For detailed training performance and feature space analysis, please refer to the weekly journal.
+
 4. Testing and Validation: Use the methods in `testing environment` to validate the system.
 
 ## Notes
