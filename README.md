@@ -19,7 +19,7 @@ This project focuses on developing a deep learning-based sensor network for wate
 
 ## Hardware Device
 The project includes a comprehensive hardware device module, featuring:
-<<<<<<< HEAD
+<<<<<<< 
 - Buzzer component:
   ![Buzzer](./hardware%20device%20module/buzzer.jpg)
 - Device shape images:
