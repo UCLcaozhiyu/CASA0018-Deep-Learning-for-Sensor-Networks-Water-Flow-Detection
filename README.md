@@ -84,7 +84,56 @@ For detailed training performance and feature space analysis, please refer to th
 
 4. Testing and Validation: Use the methods in `testing environment` to validate the system. See test videos for specific runs and test results.
 
-## Notes
-- Ensure the hardware devices are deployed in the correct order.
-- Select the appropriate model version for deployment.
-- Regularly check the system's operational status.
+## 🔧 Notes
+
+- Ensure the hardware devices are connected and powered in the correct order.  
+- Select the appropriate trained model version for deployment (`.zip` file exported from Edge Impulse).  
+- Regularly check the system's operational status during testing and real-world deployment.  
+- To deploy the model onto the **Arduino Nano 33 BLE Sense**, follow these steps:
+
+### 🚀 Model Deployment Instructions
+
+1. **Install Edge Impulse CLI**  
+   Ensure that the Edge Impulse CLI is installed on your computer:  
+   ```bash
+   npm install -g edge-impulse-cli
+2. **Connect the Arduino Board**  
+   Connect the Arduino Nano 33 BLE Sense to your computer via USB.
+   Make sure it is recognized. You can run:
+   ```bash
+   edge-impulse-daemon
+3. **Upload the Model to the Board**
+   In the Edge Impulse studio, go to Deployment → Arduino Library, then:
+
+   Choose the model version (e.g. `ei-test2-arduino-1.0.8`)
+
+   Set the window size and other parameters appropriately
+
+   Click Build
+
+   Download the `.zip` library
+
+4. **Import to Arduino IDE**
+
+   Open Arduino IDE
+
+   Go to `Sketch → Include Library → Add .ZIP Library...`
+
+   Select the downloaded `.zip` file
+
+   Open the provided example sketch (typically under `File → Examples → your_model_name`)
+
+5. **Upload to the Board**
+
+   Adjust the code if needed (e.g. output format, triggering conditions)
+
+   Click Upload to flash the model onto the device
+
+6. **Test in Real Environment**
+
+   Monitor serial output using `Serial Monitor`
+
+   Validate the detection output and adjust threshold settings if necessary (e.g. `water flow > 0.9`)
+
+💡 For full details, refer to the official documentation:
+[Edge Impulse – Running your impulse on Arduino Nano 33 BLE Sense](https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/arduino-nano-33-ble-sense)
