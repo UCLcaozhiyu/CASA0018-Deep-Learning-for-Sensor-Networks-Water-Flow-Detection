@@ -25,7 +25,7 @@ The project includes a comprehensive hardware device module, featuring:
 - Device shape images:
   ![Device Shape](./hardware%20device%20module/shape.jpg)
 =======
-- Internal structure images ![Buzzer](./hardware%20device%20module/internal%20structure.jpg)
+- Internal structure images (center control:nano 33 BLE sense & buzzer) ![Buzzer](./hardware%20device%20module/internal%20structure.jpg)
 - Device shape images ![Buzzer](./hardware%20device%20module/shape.jpg)
 >>>>>>> 
 
