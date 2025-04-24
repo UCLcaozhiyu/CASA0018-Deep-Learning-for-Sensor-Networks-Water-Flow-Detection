@@ -27,7 +27,7 @@ The project includes a comprehensive hardware device module, featuring:
   ![Device Shape](./hardware%20device%20module/shape.jpg)
 =======
 - Internal structure images
-- Buzzer component ![Buzzer](./hardware%20device%20module/internal structure.jpg)
+- Buzzer component ![Buzzer](./hardware%20device%20module/internal%20structure.jpg)
 - Device shape images ![Buzzer](./hardware%20device%20module/shape.jpg)
 >>>>>>> 73ce40d5159cb818288c4fe04ee2203fbc7d891f
 
