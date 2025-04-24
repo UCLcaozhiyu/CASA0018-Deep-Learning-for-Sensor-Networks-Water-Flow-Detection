@@ -46,7 +46,7 @@ Photos of the data collection environment are provided to document the real-worl
 - ![Data Collection 1](./Photos%20of%20the%20data%20collection%20environment/ff2ff22afc49314b5a34ac375163de1.jpg)
 - ![Data Collection 2](./Photos%20of%20the%20data%20collection%20environment/f939eb40fd6af8ab1cf4466c31eae90.jpg)
 - ![Data Collection 2](./Photos%20of%20the%20data%20collection%20environment/df7fab5387dbd82f2cec2ae5920748b.jpg)
-
+The datasets are stored in `data set` files, and all files can be used for training; the only difference between the several files is in the amount of data.
 
 ## Technical Details and Progress
 ### Data Collection and Processing
