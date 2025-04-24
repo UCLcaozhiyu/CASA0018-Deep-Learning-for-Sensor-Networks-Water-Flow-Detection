@@ -70,8 +70,18 @@ Photos of the data collection environment are provided to document the real-worl
 
 ## Usage Instructions
 1. Hardware Deployment: Refer to the device structure images in `hardware device module` for deployment.
-2. Model Selection: Choose the appropriate model version based on your needs (located in `export model` directory).
-3. Testing and Validation: Use the methods in `testing environment` to validate the system.
+2. Model Selection: Choose the appropriate model version based on your needs (located in `export model` directory). Of all the trained models, ei-test2-arduino-1.0.8 was selected as the final deployment model based on the following considerations:
+
+First, this version achieved a stable accuracy above 80% in the Model Testing section of Edge Impulse, while demonstrating relatively higher robustness in environments with small water flow and complex background noise (e.g., rain or human voice), compared to earlier versions such as 1.0.7. This indicates better generalization and a stronger ability to distinguish water flow sounds from ambient interference.
+
+Second, when deployed on the Arduino Nano 33 BLE Sense board, the model maintained low-latency inference and fast response. With a conservative activation threshold set at 0.9 to reduce false positives, the model still effectively responded to strong water flow events. This suggests a good balance between usability and reliability in real-world applications.
+
+Moreover, the model was trained using optimized MFE parameters, including a wider frequency range, increased filter count, and adjusted frame length. These configurations, supported by relevant literature and validated through experimentation, improved the feature extraction of water flow audio. By reducing the strength of data augmentation, the model was able to focus more on learning the true characteristics of water flow in realistic conditions.
+
+Finally, deployment testing showed that the model maintained its recognition performance even after waterproof encapsulation, making it compatible with the actual use-case setup. Therefore, considering accuracy, robustness, inference performance, and deployability, ei-test2-arduino-1.0.8 is the most suitable model for this project.
+
+For detailed training performance and feature space analysis, please refer to the weekly journal.
+4. Testing and Validation: Use the methods in `testing environment` to validate the system.
 
 ## Notes
 - Ensure the hardware devices are deployed in the correct order.
