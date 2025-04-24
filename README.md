@@ -107,10 +107,6 @@ For detailed training performance and feature space analysis, please refer to th
 
    Choose the model version (e.g. `ei-test2-arduino-1.0.8`)
 
-   Set the window size and other parameters appropriately
-
-   Click Build
-
    Download the `.zip` library
 
 4. **Import to Arduino IDE**
